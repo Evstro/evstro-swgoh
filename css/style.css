@@ -25,3 +25,26 @@ li a:hover {
 .active {
     background-color: blue;
 }
+
+table.sec1 {
+    columns: 6;
+    border-collapse: separate;
+    border: 5px solid black;
+    border: #333;
+    font-size: larger;
+    text-align: center;
+}
+
+th.th-sec {
+    column-span: all;
+
+}
+
+table {
+    border: 5px solid black;
+}
+
+table.th-sec th{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
